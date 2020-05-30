@@ -1,0 +1,86 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/*VARIABLES*/
+
+:root {
+    --main-font: 'Inter', sans-serif;
+}
+
+.main__container {
+    background-color: grey;
+    width: 70%;
+    height: 800px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main__text {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 200px);
+    grid-column: 1;
+    padding: 100px;
+    position: relative;
+    margin: 10px auto;
+
+}
+
+.main__text .quote__img {
+    position: absolute;
+    top: 260px;
+    left: 200px
+}
+
+.main__text blockquote {
+    width: 100%;
+    line-height: 3rem;
+    font-size: 20px;
+    grid-row: 2;
+}
+
+.main__text .main__text-author {
+    font-size: 1.8em;
+    font-weight: 700;
+    grid-row: 2;
+}
+
+.main__text .main__text-author span {
+    opacity: 0.5;
+}
+
+.main__text .pattern__img {
+    position: absolute;
+    left: 0px;
+    top: 640px;
+    opacity: 0.5;
+}
+
+/*IMAGE*/
+
+.main__image {
+    width: 100%;
+    grid-column: 2;
+    padding: 100px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main__image .autor__image {
+
+}
+
+.main__page .pattern__img_2 {
+    position: absolute;
+    bottom: 5px;
+    top: 150px;   
+}
+
