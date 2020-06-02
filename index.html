@@ -2,48 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/styles.css">
   
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <main>
-    <div class="main__container">
+    <section class="main__container">
 
-      <section class="main__text">
+      <div class="main__text">
         <div class="quote__img"><img src="./images/pattern-quotes.svg" alt=""></div>
         <blockquote>“I’ve been interested in coding for a while but never taken the jump, until now. 
             I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
             excited about the future.”<blockquote>
         <p class="main__text-author">Tanya Sinclair, <span>UX Engineer</span></p>
         <div class="pattern__img"><img src="./images/pattern-curve.svg" alt=""></div>
-      </section>
+      </div>
 
-      <section main="main__image">
-        <div>
-          <img class="autor__image" src="./images/image-tanya.jpg" alt="">
+      <div class="main__image">
+        <div class="author__image">
+          <img src="./images/image-tanya.jpg" alt="">
         </div>
         <div class="pattern_img_2">
           <img src="./images/pattern-bg.svg" alt="">
         </div>
-      </section>
-
-    </div>
+      </div>
+      <div class="slider">
+        <img src="images/icon-prev.svg" alt="icon-prev" class="slider__img slider__img--left">
+        <img src="images/icon-next.svg" alt="icon-next" class="slider__img slider__img--right">
+      </div>
+    </section>
   </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Felipe Chávez</a>.
   </div>
 </body>
 </html>
